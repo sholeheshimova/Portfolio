@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Şölə | Portfolio</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <h1 class="logo">Şölə</h1>
+        <ul class="nav-links">
+          <li><a href="#about">Haqqımda</a></li>
+          <li><a href="#projects">Layihələrim</a></li>
+          <li><a href="#contact">Əlaqə</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Haqqımda -->
+    <section id="about" class="section">
+      <div class="container">
+        <img src="./img/profile.png" alt="Şölənin şəkli" class="profile-img" />
+        <div class="about-text">
+          <h2>Salam! Mən Şölə Həşimova 👩‍💻</h2>
+          <p>
+            Frontend development sahəsində öyrənir və inkişaf edirəm. Gözəl
+            interfeyslər yaratmaq və istifadəçi təcrübəsini yaxşılaşdırmaq üçün
+            çalışıram.
+          </p>
+
+          <a href="./img/Şölə Həşimova.pdf" target="_blank">
+            <button class="cv-btn">CV</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Layihələr -->
+    <section id="projects" class="section">
+      <h2>Layihələrim</h2>
+      <div class="projects-container">
+        <div class="project">
+          <img src="assets/learnify.png" alt="Learnify Layihəsi" />
+          <h3>MarvelVerseHub</h3>
+          <p>
+            Frontend təcrübəmi artırmaq üçün yaratdığım bir film izləmə
+            platformasıdır.
+          </p>
+          <a href="https://learnify.example" target="_blank">Sayta bax</a>
+        </div>
+
+        <div class="project">
+          <img src="assets/nomnom.png" alt="NomNom Layihəsi" />
+          <h3>NomNom</h3>
+          <p>
+            Aşpazlar üçün resept paylaşımı və iş elanları saytı – IT
+            layihələndirmə dərsi üçün hazırlanıb.
+          </p>
+          <a href="https://nomnom.example" target="_blank">Sayta bax</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Əlaqə -->
+    <section id="contact" class="section">
+      <h2>Əlaqə</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Adınız" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Mesajınız..." required></textarea>
+        <button type="submit">Göndər</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Şölə. Bütün hüquqlar qorunur.</p>
+    </footer>
+  </body>
+</html>
